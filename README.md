@@ -8,3 +8,9 @@ At your terminal prompt type:
 ```
 conda install cython
 ```
+
+
+Additionally, Cython needs the C compiler, so you should get it for you OS
++ **Linux**: get gcc from repository
++ **MacOS**: get Apple XCode from DVD or http://developer.apple.com 
++ **Windows**: use the open source MinDW. Cython documentation has an appendix on this (http://docs.cython.org/en/latest/src/tutorial/appendix.html).
